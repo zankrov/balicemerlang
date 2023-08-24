@@ -1,0 +1,29 @@
+.partnersContainer{
+    width: 100%;
+    height: 184px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: #EEEEEE;
+    margin-top: 5.5rem;
+
+}
+
+.partnersContent{
+    padding-top: 43px;
+    padding-bottom: 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.partnersContent .partnersTitle h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.partnersLogo img{
+    height: 45px;
+    width: 124px;
+}

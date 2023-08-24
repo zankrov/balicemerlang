@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap,family=Manrope:wght@300&display=swap');
+
+
+
+body {
+    background-color: white;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    transition: .3s ease;
+}
+:root{
+    --PrimaryColor:rgb(255,38,38);
+    --HoverColor:rgb(60, 23, 23);
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.section {
+    padding: 4rem 0 2rem;
+}
+
+/* .container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+} */
+
+.icon{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+}
+
+.btn {
+    padding: .4rem 1.5rem;
+    background: var(--PrimaryColor);
+    border: none;
+    outline: none;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+
+img, video{
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1366px) {
+    html {
+        font-size: 85%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 758px) {
+    html {
+        font-size: 75%;
+    }
+}

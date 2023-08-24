@@ -1,0 +1,101 @@
+.whyContainer{
+    padding-top: 5rem;
+    /* min-height: 300vh; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.whyContent{
+    height: 100%;
+    width: 100%;
+    /* background-color:bisque; */
+    display: flex;  
+    gap: 5px;
+    align-items: center;
+}
+
+.whyImage{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whyImage img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.whyDeskripsi{
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+.aboutUsBtn{
+    /* left: 728px; */
+    width: fit-content;
+    height: fit-content;
+    background-color: #EB1D36;
+    border-radius: 56px;
+
+}
+.aboutUsBtn h1{
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+#judulatas{
+    display: none;
+
+}
+
+
+
+@media (max-width: 758px) {
+
+    .whyContainer{
+        padding-top: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .whyContent{
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        /* background-color:bisque; */
+        flex-wrap: wrap; 
+
+    }
+    .whyImage img{
+
+        object-fit: cover;
+        object-position: center;
+        border-radius: 15px;
+    }
+    #judulatas{
+        display:flex;
+        text-align: center;
+    }
+    #judulbawah{
+        display: none;
+    }
+
+  }

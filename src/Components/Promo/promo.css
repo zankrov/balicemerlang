@@ -1,0 +1,74 @@
+.promoContainer{
+    padding-top: 5rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    /* background-color: blueviolet; */
+}
+
+.promoContent{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.promoCard{
+
+    height: 405px;
+    width: 328px;
+    border-radius: 0px;
+    
+
+}
+.promoCardContainer{
+    display: flex;
+    gap: 1rem;
+}
+.promoCard .promoCardImage img{
+    width: 328px;
+    position: absolute;
+    height: 405px;
+    object-fit: cover;
+    z-index: 0;
+    border-radius: 15px;
+}
+
+.promoCard .promoText {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    padding: 40px;
+    gap: 1rem;
+
+
+    /* position: relative; */
+}
+
+.promoText h1{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    }
+    
+.promoText h3{
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    }

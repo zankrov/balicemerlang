@@ -1,0 +1,12 @@
+.App{
+    /* min-height: 100vh; */
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+
+.carousel{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    /* padding: 50px; */
+}

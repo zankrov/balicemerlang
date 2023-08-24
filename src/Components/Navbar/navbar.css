@@ -1,0 +1,94 @@
+.navBarSection .header {
+
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    padding-left: 7%;
+    padding-right: 7%;
+    z-index: 1000;
+}
+.logoDiv{
+    max-width: 50px;
+    max-height: 50px;
+}
+.header-bg{
+    background-color: #EB1D36;
+}
+.navList{
+    display: flex;
+    gap: 25px;
+}
+.navList2{
+    gap: 25px;
+}
+.navBar{
+    gap: 25px;
+}
+/* .navBar .navList li{
+    padding-right: 78.5px;
+} */
+.navbar-nav {
+    padding-right: 78.5px;
+}
+.navBar .navList a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.navBar .navList2 h1{
+    color: #fff;
+    font-size: 25px;
+
+    /* padding-right:55.5px ; */
+}
+#hamburger-menu{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navBarSection .header {
+
+        padding: 10px 30px;
+    }
+
+
+    #hamburger-menu{
+        display: inline-block;
+        position: relative;
+    }
+    .navList{
+        margin-top: 10%;
+    }
+
+    /* posisi navbar nav kesamping kanan */
+    .navbar-nav {
+        position: absolute;
+        top: 0;
+        right: -100%;
+        background-color: rgba(1, 1, 1, 0.8);
+        width: 60vw;
+        height: 100vh;
+        transition: 0.3s;
+    }
+
+    /* buat nurunin navbar nav */
+    .navbar-nav a {
+        position: block;
+        color: #fff;
+        margin: 1.5rem;
+    }
+
+    /* ini navbar-nav kalo diactivein jadi gini */
+    .navbar-nav.active {
+        right: 0;
+    }
+    .navList{
+        flex-direction: column;
+    }
+
+  }

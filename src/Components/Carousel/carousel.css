@@ -1,0 +1,10 @@
+.App{
+    width: 100%;
+}
+
+.carousel{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    /* padding: 50px; */
+}

@@ -1,0 +1,53 @@
+.home {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url('../../Assets/bg.png');
+    background-color: aliceblue;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 160px;
+    
+    
+}
+
+.secContainer{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.secContainer .homeText {
+    text-align: center;
+    line-height: 150pt;
+}
+
+.secContainer .homeText .title{
+    font-size: 25rem;
+    color: white;
+    letter-spacing: 40px;
+}
+.secContainer .homeText .subTitle{
+    color: white;
+    font-size: 2rem;
+}
+
+.kotak {
+    width: 80%;
+    background-color: white;
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+
+/* .secContainer .homeCard{
+    width: 100%;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: white;
+    position: absolute;
+    gap: 1rem;
+    justify-content: center;
+} */
